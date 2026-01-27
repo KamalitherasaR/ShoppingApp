@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    background-color: rgb(85, 88, 88);
+}
+main{
+    height: 100vh;
+    width: 1500px;
+    
+}
+header{
+    height: 60px;
+    width: 1500px;
+    background-color: rgb(174, 221, 248);
+    padding-left: 70px;
+    display: flex;
+    padding-top: 15px;
+    /* position: fixed; */
+}
+#ct{
+    margin-left: 1100px;
+    padding-right: 70px;
+}
+.a{
+    padding-top: 20px; 
+    padding-bottom: 20px;
+} 
