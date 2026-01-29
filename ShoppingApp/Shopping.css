@@ -16,18 +16,33 @@ main{
 }
 header{
     height: 60px;
-    width: 1500px;
+    width: 1560px;
     background-color: rgb(174, 221, 248);
     padding-left: 70px;
     display: flex;
     padding-top: 15px;
-    /* position: fixed; */
+    position: fixed;
 }
 #ct{
     margin-left: 1100px;
     padding-right: 70px;
 }
 .a{
-    padding-top: 20px; 
-    padding-bottom: 20px;
-} 
+    padding-top: 90px; 
+    padding-left: 180px;
+}
+.b{
+    padding-bottom: 40px;
+}
+.c,.h,.m{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 40px;
+}
+.d,.e,.f,.g,.i,.j,.k,.l,.n,.o,.p,.q{
+    height: 260px;
+    width: 210px;
+    background-color: white;
+}
+
+
