@@ -11,8 +11,7 @@ body{
 }
 main{
     height: 100vh;
-    width: 1500px;
-    
+    width: 1500px; 
 }
 header{
     height: 60px;
@@ -40,9 +39,19 @@ header{
     padding-bottom: 40px;
 }
 .d,.e,.f,.g,.i,.j,.k,.l,.n,.o,.p,.q{
-    height: 260px;
-    width: 210px;
+    height: 300px;
+    width: 240px;
     background-color: white;
-}
+    padding-left: 26px;
+    padding-right: 25px;
+    padding-top: 25px;
+    border-radius: 15px;
 
+}
+img{
+    height: 200px ;
+    width: 185px;
+    border-radius: 15px;
+}
+    
 
