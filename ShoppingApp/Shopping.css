@@ -6,7 +6,7 @@
 body{
     height: 100%;
     width: 100%;
-    display: flex;
+    /* display: flex; */
     background-color: rgb(85, 88, 88);
 }
 main{
@@ -40,7 +40,7 @@ header{
     padding-bottom: 40px;    
 }
 .d,.e,.f,.g,.i,.j,.k,.l,.n,.o,.p,.q{
-    height: 300px;
+    height: 350px;
     width: 240px;
     background-color: white;
     padding-left: 26px;
@@ -58,11 +58,27 @@ h3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 160px;
 }
-#ctt{
-    padding-left: 170px;  
-    display: grid;
-    margin-top: -30px;
-    font-size: 25px;
+button{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(83, 95, 103);
+    background-color: rgb(207, 249, 242);
+    border-color: rgb(113, 175, 217);
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 15px;
 }
-
-
+footer{
+    height: 35px;
+    width: 100%;
+    background-color: rgb(231, 234, 235);
+    position: fixed;
+    padding-top: 15px;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    
+}
