@@ -6,7 +6,7 @@
 body{
     height: 100%;
     width: 100%;
-    /* display: flex; */
+    display: flex;
     background-color: rgb(85, 88, 88);
 }
 main{
@@ -70,15 +70,5 @@ button{
     border-radius: 10px;
     font-size: 15px;
 }
-footer{
-    height: 35px;
-    width: 100%;
-    background-color: rgb(231, 234, 235);
-    position: fixed;
-    padding-top: 15px;
-    justify-content: center;
-    align-items: center;
-    bottom: 0;
-    display: flex;
-    
-}
+
+
